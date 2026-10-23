@@ -1,0 +1,12 @@
+[project]
+name = "brb-comfyui-dynamicprompts-wildcard-auto-reload"
+version = "1.0.0"
+description = "Reloads Dynamic Prompts wildcard files when they change, without restarting ComfyUI, and allows spaces before '::' in weights."
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/BigRedBrent/brb-comfyui-dynamicprompts-wildcard-auto-reload"
+
+[tool.comfy]
+PublisherId = "bigredbrent"
+DisplayName = "Dynamic Prompts Wildcard Auto Reload"
